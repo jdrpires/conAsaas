@@ -1,0 +1,10 @@
+INFO:     Started server process [31117]
+INFO:     Waiting for application startup.
+2026-02-01 11:52:35,666 - conassas - INFO - Starting ConAssas API...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-02-01 11:52:37,151 - conassas - INFO - AsaasClient initialized with key: $aact_hmlg_000MzkwODA2MWY2OGM3...
+2026-02-01 11:52:37,151 - conassas - INFO - Creating payment: CREDIT_CARD - R$ 300.0
+2026-02-01 11:52:39,287 - httpx - INFO - HTTP Request: POST https://sandbox.asaas.com/api/v3/payments "HTTP/1.1 200 "
+2026-02-01 11:52:39,288 - conassas - INFO - Asaas API POST payments - Status: 200
+INFO:     127.0.0.1:51942 - "POST /payments HTTP/1.1" 201 Created
